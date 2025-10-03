@@ -1,0 +1,104 @@
+
+/* ==== ESTILOS GENERALES ==== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* ==== ENCABEZADO ==== */
+header {
+  background: #ffffff;
+  color: #6a1b9a; /* Morado Real Madrid */
+  padding: 20px;
+  border-bottom: 5px solid #d4af37; /* Dorado */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* ==== SECCIONES ==== */
+section {
+  padding: 30px 20px;
+}
+
+h2 {
+  color: #6a1b9a;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+/* ==== LISTA DE JUGADORES ==== */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+  background: #fdf7e2; /* toque dorado suave */
+}
+
+/* ==== IMAGEN ==== */
+img {
+  max-width: 320px;
+  border-radius: 15px;
+  margin: 25px 0;
+  border: 4px solid #6a1b9a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* ==== BOTÓN / ENLACE ==== */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #6a1b9a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 2px solid #d4af37;
+}
+
+a:hover {
+  background: #d4af37;
+  color: #6a1b9a;
+}
+
+/* ==== PIE DE PÁGINA ==== */
+footer {
+  background: #6a1b9a;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #fff;
+  border-top: 5px solid #d4af37;
+}
+
+
